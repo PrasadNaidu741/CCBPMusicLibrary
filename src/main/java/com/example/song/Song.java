@@ -14,7 +14,7 @@ public class Song {
         this.singer = singer;
         this.musicDirector = musicDirector;
     }
-    public int getSingId() {
+    public int getsongId() {
         return songId;
     }
     public void setsongId(int songId) {
@@ -23,7 +23,7 @@ public class Song {
     public String getSongName() {
         return songName;
     }
-    public void getSongName(String songName) {
+    public void setSongName(String songName) {
         this.songName = songName;
     }
     public String getLyricist() {
